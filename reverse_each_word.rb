@@ -7,6 +7,7 @@ def reverse_each_word(original_string)
     reversed_array[index] = str.reverse
     binding.pry
   end
+  return reversed_array.join(" ")
 end
 
 binding.pry
